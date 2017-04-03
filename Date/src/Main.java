@@ -7,7 +7,7 @@ public class Main {
 		Date dateJour = new Date(jour, mois, année);
 		
 		System.out.println(dateJour.affiche());
-		
+		int i;
 		Stage AI101 = new Stage() ;
 		
 		AI101.dateDebut.setJour(31);
