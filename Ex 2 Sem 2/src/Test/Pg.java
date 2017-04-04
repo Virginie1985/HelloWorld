@@ -24,8 +24,8 @@ public class Pg {
     
     System.out.println("Les filles sont : ");
     g.afficheFille();
-    //double m = g.ageMoyen ();
-    //System.out.println("l'age moyen est :");
+    double m = g.ageMoyen ();
+    System.out.println("l'age moyen est :"+m);
     
     System.out.println("Les plus de douze ans : ");
     g.affiche(12);
@@ -36,6 +36,7 @@ public class Pg {
     
     g.supprime("Lafoisse");
     System.out.println("La liste sans Lafoisse est : ");
+    g.affiche();
     
     System.out.println("Tout est effacé :");
     g.raz();
