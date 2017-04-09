@@ -24,6 +24,7 @@ public class Pg {
     
     System.out.println("Les filles sont : ");
     g.afficheFille();
+    
     double m = g.ageMoyen ();
     System.out.println("l'age moyen est :"+m);
     
